@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use('/api/users', usersRouter)
-app.use('/api/posts', postsRouter)
+app.use('/api/feed', postsRouter)
 
 
 
