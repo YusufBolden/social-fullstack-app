@@ -25,7 +25,7 @@ function RegisterPage() {
         console.log(res);
 
         localStorage.setItem('social-app-token', JSON.stringify(res.data.token))
-        navigate('/signin')
+        navigate('/login')
     } catch (error) {
         console.log(error);     
     }
